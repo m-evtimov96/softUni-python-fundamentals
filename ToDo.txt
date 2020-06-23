@@ -1,0 +1,38 @@
+Theme 3
+	MExer 3,5
+Theme 4
+	MExer 2(fix),3
+Theme5
+    Exer 8,9,10
+    MExer 2(fix),3,4,5
+Theme6
+    Exer 8
+    MExer PongGame
+Theme 7
+    Exer 9,10
+    MExer 1,2,3,4,5
+Theme 8
+    Exer 8,9,10
+    MExer 1,2,3,4,5
+Theme 9
+    Exer 6
+    MExer 1,2,3,4,5
+    
+Problem Solving - only the end google task left (can skip it)
+Bitwise Operations - only exer 5/6 left (can skip it)
+Intro to computer science
+Database basics
+
+
+
+
+
+Check this one
+
+   elif command == 'Change':
+        index = int(line[1])
+        new_name = line[2]
+        current_name = friends_list[index]    <---- Remove this and use only friend_list[index]
+        if 0 <= index < len(friends_list):
+            print(f'{current_name} changed his username to {new_name}.')
+            friends_list[index] = new_name
